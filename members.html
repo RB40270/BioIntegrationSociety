@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>メンバー紹介 | 一般社団法人 バイオインテグレーション学会</title>
+  <meta name="description" content="バイオインテグレーション学会のメンバー紹介ページ。名誉会長、主幹メンバー、編集委員・WEBサイト委員を掲載しています。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            jstage: {
+              50: "#f5f9fc",
+              100: "#e9f1f7",
+              200: "#d6e4ef",
+              600: "#1f5d8f",
+              700: "#184b73",
+              800: "#123754"
+            }
+          },
+          fontFamily: {
+            serifjp: ['"Noto Serif JP"', "serif"],
+            sansjp: ['"Noto Sans JP"', "sans-serif"]
+          },
+          boxShadow: {
+            panel: "0 20px 50px rgba(18, 55, 84, 0.08)"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: "Noto Sans JP", sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <header class="border-b border-slate-200 bg-white/90 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-5 lg:px-10">
+      <div>
+        <p class="text-[11px] font-bold uppercase tracking-[0.28em] text-jstage-600">The Society for Bio-Integration</p>
+        <a href="index.html" class="mt-1 block font-serifjp text-2xl font-bold text-jstage-800">一般社団法人 バイオインテグレーション学会</a>
+      </div>
+      <nav class="hidden gap-7 text-sm font-semibold text-slate-600 md:flex">
+        <a href="index.html" class="transition hover:text-jstage-700">トップ</a>
+        <a href="index.html#journal" class="transition hover:text-jstage-700">学会誌</a>
+        <a href="members.html" class="transition hover:text-jstage-700">メンバー紹介</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-7xl px-6 py-10 lg:px-10 lg:py-14">
+    <section class="overflow-hidden rounded-[32px] border border-slate-200 bg-white shadow-panel">
+      <div class="border-b border-slate-200 bg-[linear-gradient(135deg,#ffffff_0%,#edf4f8_100%)] p-8 lg:p-12">
+        <div>
+          <p class="text-[11px] font-bold uppercase tracking-[0.28em] text-jstage-600">Core Members</p>
+          <h1 class="mt-4 font-serifjp text-4xl font-bold leading-tight text-jstage-800">メンバー紹介</h1>
+          <p class="mt-5 max-w-2xl text-base leading-8 text-slate-600">
+            材料科学、口腔科学、臨床実装を横断しながら、学会運営と学術発信を担うメンバーを紹介します。
+            それぞれの専門性を持ち寄り、学会誌、研究交流、情報発信の基盤を支えています。
+          </p>
+        </div>
+      </div>
+
+      <div class="grid divide-y divide-slate-200">
+        <article class="grid gap-6 p-6 lg:grid-cols-[120px_1fr_auto] lg:items-start lg:gap-8 lg:p-8">
+          <img src="PIC/member/AOKI.jpg" alt="青木秀希 名誉会長" class="h-28 w-28 rounded-[20px] object-cover ring-1 ring-slate-200">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-jstage-600">Honorary Chair</p>
+            <h2 class="mt-2 font-serifjp text-3xl font-bold text-jstage-800">青木 秀希</h2>
+            <p class="mt-3 text-sm leading-7 text-slate-600">国際アパタイト研究所 代表取締役</p>
+          </div>
+          <div class="flex items-start lg:justify-end">
+            <a href="https://apatite.online/aoki.html" target="_blank" rel="noreferrer" class="inline-flex rounded-full bg-jstage-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-jstage-700">紹介ページ</a>
+          </div>
+        </article>
+
+        <article class="grid gap-6 p-6 lg:grid-cols-[120px_1fr] lg:items-start lg:gap-8 lg:p-8">
+          <img src="PIC/member/KASUGAI.jpg" alt="春日井昇平 名誉会長" class="h-28 w-28 rounded-[20px] object-cover ring-1 ring-slate-200">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-jstage-600">Honorary Chair</p>
+            <h2 class="mt-2 font-serifjp text-3xl font-bold text-jstage-800">春日井 昇平</h2>
+            <p class="mt-3 text-sm leading-7 text-slate-600">東京医科歯科大学 名誉教授</p>
+          </div>
+        </article>
+
+        <article class="grid gap-6 p-6 lg:grid-cols-[120px_1fr_auto] lg:items-start lg:gap-8 lg:p-8">
+          <img src="PIC/member/KIKUCHI.png" alt="菊池正紀 主幹メンバー" class="h-28 w-28 rounded-[20px] object-cover ring-1 ring-slate-200">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-jstage-600">Core Member</p>
+            <h2 class="mt-2 font-serifjp text-3xl font-bold text-jstage-800">菊池 正紀</h2>
+            <div class="mt-3 space-y-1 text-sm leading-7 text-slate-600">
+              <p>国立研究開発法人物質・材料研究機構 バイオセラミックスグループ グループリーダー</p>
+              <p>北海道大学 大学院情報科学研究科 生命人間情報科学専攻 客員教授</p>
+              <p>岡山大学 大学院ヘルスシステム統合科学研究科 客員教授</p>
+              <p>筑波大学 グローバル教育院 教授</p>
+              <p>明治大学 兼任講師</p>
+            </div>
+          </div>
+          <div class="flex items-start lg:justify-end">
+            <a href="https://researchmap.jp/read0079237" target="_blank" rel="noreferrer" class="inline-flex rounded-full border border-jstage-200 px-5 py-3 text-sm font-bold text-jstage-700 transition hover:bg-jstage-50">researchmap</a>
+          </div>
+        </article>
+
+        <article class="grid gap-6 p-6 lg:grid-cols-[120px_1fr_auto] lg:items-start lg:gap-8 lg:p-8">
+          <img src="PIC/member/OTSUKA.png" alt="大塚裕太 編集委員・WEBサイト委員" class="h-28 w-28 rounded-[20px] object-cover ring-1 ring-slate-200">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-jstage-600">Editorial / Web</p>
+            <h2 class="mt-2 font-serifjp text-3xl font-bold text-jstage-800">大塚 裕太</h2>
+            <p class="mt-3 text-sm leading-7 text-slate-600">鹿児島大学大学院医歯学総合研究科 助教（研究准教授）</p>
+            <p class="mt-1 text-sm leading-7 text-slate-600">学会誌編集とWEB発信の両面から、研究成果の可視化と発信強化に取り組んでいます。</p>
+          </div>
+          <div class="flex items-start lg:justify-end">
+            <a href="https://researchmap.jp/yuta_otsuka" target="_blank" rel="noreferrer" class="inline-flex rounded-full border border-jstage-200 px-5 py-3 text-sm font-bold text-jstage-700 transition hover:bg-jstage-50">researchmap</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-8 text-sm text-slate-600 lg:px-10 md:flex-row md:items-center md:justify-between">
+      <p>一般社団法人 バイオインテグレーション学会</p>
+      <a href="index.html" class="font-semibold text-jstage-700 hover:text-jstage-800">トップページへ戻る</a>
+    </div>
+  </footer>
+</body>
+</html>

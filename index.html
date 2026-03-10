@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一般社団法人 バイオインテグレーション学会</title>
+  <meta name="description" content="一般社団法人バイオインテグレーション学会の公式WEBサイト。口腔科学、ハイドロキシアパタイト、インプラント、バイオマテリアル研究の情報を発信します。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            jstage: {
+              50: "#f5f9fc",
+              100: "#e9f1f7",
+              200: "#d6e4ef",
+              400: "#5c89ad",
+              600: "#1f5d8f",
+              700: "#184b73",
+              800: "#123754"
+            },
+            sand: "#cbb295"
+          },
+          fontFamily: {
+            serifjp: ['"Noto Serif JP"', "serif"],
+            sansjp: ['"Noto Sans JP"', "sans-serif"]
+          },
+          boxShadow: {
+            panel: "0 20px 50px rgba(18, 55, 84, 0.08)"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: "Noto Sans JP", sans-serif; }
+    .hero-slide {
+      animation: heroFade 18s infinite;
+    }
+
+    .hero-slide:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .hero-slide:nth-child(2) {
+      animation-delay: 6s;
+    }
+
+    .hero-slide:nth-child(3) {
+      animation-delay: 12s;
+    }
+
+    @keyframes heroFade {
+      0% {
+        opacity: 0;
+        transform: scale(1.04) translateX(24px);
+      }
+      8% {
+        opacity: 0.52;
+        transform: scale(1.01) translateX(0);
+      }
+      28% {
+        opacity: 0.52;
+        transform: scale(1) translateX(-8px);
+      }
+      36% {
+        opacity: 0;
+        transform: scale(1.02) translateX(-24px);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1.02) translateX(-24px);
+      }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <div class="min-h-screen bg-[linear-gradient(180deg,#f8fbfd_0%,#eef4f8_100%)]">
+    <header class="border-b border-slate-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-5 lg:px-10">
+        <div>
+          <p class="text-[11px] font-bold uppercase tracking-[0.28em] text-jstage-600">The Society for Bio-Integration</p>
+          <a href="index.html" class="mt-1 block font-serifjp text-2xl font-bold text-jstage-800">一般社団法人 バイオインテグレーション学会</a>
+        </div>
+        <nav class="hidden gap-7 text-sm font-semibold text-slate-600 md:flex">
+          <a href="#about" class="transition hover:text-jstage-700">学会概要</a>
+          <a href="#journal" class="transition hover:text-jstage-700">学会誌</a>
+          <a href="messages.html" class="transition hover:text-jstage-700">ごあいさつ</a>
+          <a href="members.html" class="transition hover:text-jstage-700">メンバー紹介</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto max-w-7xl px-6 py-10 lg:px-10 lg:py-14">
+        <div class="relative overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-panel">
+          <div class="absolute inset-0 overflow-hidden">
+            <img src="PIC/65709.png" alt="" class="hero-slide absolute inset-0 h-full w-full object-cover blur-[0.5px]">
+            <img src="PIC/メディア (7).jpg" alt="" class="hero-slide absolute inset-0 h-full w-full object-cover blur-[0.5px]">
+            <img src="PIC/shared image (9).jpg" alt="" class="hero-slide absolute inset-0 h-full w-full object-cover blur-[0.5px]">
+            <div class="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.84)_0%,rgba(255,255,255,0.62)_44%,rgba(255,255,255,0.24)_100%)]"></div>
+          </div>
+          <div class="relative p-8 lg:p-12">
+            <div>
+              <p class="text-[11px] font-bold uppercase tracking-[0.28em] text-jstage-600">Materials Design aligned</p>
+              <h1 class="mt-4 max-w-4xl font-serifjp text-4xl font-bold leading-tight text-jstage-800 md:text-5xl">
+                口腔科学・HA・インプラント研究を結ぶ
+                <span class="text-jstage-600">バイオインテグレーション学会</span>
+              </h1>
+              <p class="mt-6 max-w-2xl text-base leading-8 text-slate-600">
+                日本発の材料科学と生体界面研究を軸に、<br>バイオマテリアルの基礎・応用・実装をつなぐ学術情報を発信します。
+              </p>
+              <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                <a href="https://www.jstage.jst.go.jp/browse/biointeg/-char/ja" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center rounded-full bg-jstage-600 px-6 py-3 text-sm font-bold text-white transition hover:bg-jstage-700">学会誌を見る</a>
+                <a href="messages.html" class="inline-flex items-center justify-center rounded-full border border-jstage-200 bg-white/90 px-6 py-3 text-sm font-bold text-jstage-700 transition hover:bg-white">ごあいさつ</a>
+                <a href="members.html" class="inline-flex items-center justify-center rounded-full border border-jstage-200 bg-white/90 px-6 py-3 text-sm font-bold text-jstage-700 transition hover:bg-white">メンバー紹介</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="border-y border-slate-200 bg-white">
+        <div class="mx-auto grid max-w-7xl gap-10 px-6 py-14 lg:grid-cols-[0.8fr_1.2fr] lg:px-10">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.28em] text-jstage-600">About</p>
+            <h2 class="mt-4 font-serifjp text-3xl font-bold leading-tight text-jstage-800">日本発の知見を集積し、<br>次世代研究へつなげる</h2>
+          </div>
+          <div class="space-y-5 text-base leading-8 text-slate-600">
+            <p>
+              ハイドロキシアパタイト研究は、日本から世界へ向けて大きな学術的インパクトを生んできました。
+              本学会は、その流れを受け継ぎながら、口腔科学、インプラント、生体界面、材料設計に関する情報を体系的に発信します。
+            </p>
+            <p>
+              研究を続けること自体が価値であり、持続可能な研究推進を支えるコミュニティ形成が重要です。
+              研究者、臨床家、学生が交差する場として、議論と連携の基盤を整えていきます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="journal" class="mx-auto max-w-7xl px-6 py-14 lg:px-10">
+        <div class="grid max-w-4xl gap-6 rounded-[28px] border border-slate-200 bg-white p-8 shadow-panel lg:grid-cols-[180px_1fr] lg:p-10">
+          <div class="flex items-start justify-center">
+            <img src="PIC/biointeg_12_1.jpg" alt="Bio-Integration誌の表紙" class="h-auto w-36 rounded-[12px] border border-slate-200 object-contain shadow-sm">
+          </div>
+          <div class="text-center">
+            <p class="text-[11px] font-bold uppercase tracking-[0.24em] text-jstage-600">Journal</p>
+            <h2 class="mt-3 font-serifjp text-3xl font-bold text-jstage-800">バイオインテグレーション学会誌</h2>
+            <dl class="mt-6 grid gap-4 text-base text-slate-600">
+              <div class="flex items-start justify-between gap-4 border-b border-slate-200 pb-4">
+                <dt>収録数</dt>
+                <dd class="font-semibold text-jstage-800">81本</dd>
+              </div>
+              <div class="flex items-start justify-between gap-4 border-b border-slate-200 pb-4">
+                <dt>更新日</dt>
+                <dd class="font-semibold text-jstage-800">2025/12/01</dd>
+              </div>
+              <div class="flex items-start justify-between gap-4 border-b border-slate-200 pb-4">
+                <dt>Online ISSN</dt>
+                <dd class="font-semibold text-jstage-800">2186-2923</dd>
+              </div>
+              <div class="flex items-start justify-between gap-4">
+                <dt>発行</dt>
+                <dd class="text-right font-semibold text-jstage-800">一般社団法人 バイオインテグレーション学会</dd>
+              </div>
+            </dl>
+            <div class="mt-8 flex justify-center">
+              <a href="https://www.jstage.jst.go.jp/browse/biointeg/-char/ja" target="_blank" rel="noreferrer" class="block w-full max-w-md rounded-full bg-jstage-600 px-5 py-3 text-center text-sm font-bold text-white transition hover:bg-jstage-700">J-STAGE 学会誌トップ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="border-t border-slate-200 bg-slate-50">
+      <div class="mx-auto flex max-w-7xl flex-col gap-2 px-6 py-8 text-sm text-slate-600 lg:px-10 md:flex-row md:items-center md:justify-between">
+        <p>一般社団法人 バイオインテグレーション学会</p>
+        <a href="https://www.jstage.jst.go.jp/browse/biointeg/-char/ja" target="_blank" rel="noreferrer" class="font-semibold text-jstage-700 hover:text-jstage-800">Bio-Integration on J-STAGE</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
